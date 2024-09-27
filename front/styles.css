@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* Garante que margens e padding sejam considerados no tamanho do elemento */
+}
+
+body{
+
+    background-image:url(../front/images/shrekfundo.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+     height: 130vh;   /*Dependendo do tamanho da tela do computador, será necessário ajustar ! */
+
+     display: flex;
+    
+}
+
+nav{   
+    margin-top: 0%;
+    position: fixed;
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2950;
+    width: 100%;
+    border-radius: 8px;
+    word-spacing: 35px;
+}
+
+nav a{
+
+    font-size: 30px;
+    color: aliceblue;
+    font-family: "Rubik Bubbles", system-ui;
+    
+}
+
+.quadrado {
+    width: 650px; /* Largura do quadrado */
+    height: 650px; /* Altura do quadrado */
+    background-color: #014f43; /* Cor de fundo do quadrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    
+    border-radius: 10px; /* Bordas arredondadas */
+    
+    position: fixed;
+
+    top: 50%; /* Posiciona a parte superior do quadrado a 50% da altura da tela */
+    left: 50%; /* Posiciona a parte esquerda do quadrado a 50% da largura da tela */
+    transform: translate(-50%, -50%); /* Move o quadrado para o centro exato da tela */
+    
+}
+
+.quadrado p{
+
+    font-family: "Gelasio", serif;
+    font-size: 18px;
+    font-style: bold;
+}
+
+
+
+.quadrado h1{
+    font-family: "Creepster", system-ui;;
+
+}
+
+
+.quadrado img {
+    
+    margin-top: 10px;
+    height: 450px;
+    width: 600px;
+    justify-content: center;
+    
+    display: flex;
+    top: 50%;
+    left: 50%;
+   
+}
